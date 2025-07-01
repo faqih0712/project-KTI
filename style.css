@@ -1,0 +1,21 @@
+.grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 10px;
+}
+.yapping {
+    text-align: left;
+    display: grid;
+    background-color: rgb(232, 241, 255) ;
+    border-radius: 7%;
+}
+
+.yapping2 {
+    text-align: left;
+}
+.bg {
+    background-color: rgb(169, 252, 190);
+    border-radius: 4%;
+}
